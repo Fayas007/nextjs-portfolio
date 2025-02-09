@@ -7,6 +7,11 @@ const Container = styled.div`
   max-width: 500px;
   margin: 40px auto;
   padding: 20px;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
 `;
 
 const StyledForm = styled(Form<FormValues>)`
@@ -15,16 +20,7 @@ const StyledForm = styled(Form<FormValues>)`
     color: #2c3e50;
   }
 
-  .ant-input {
-    height: 45px;
-    border-radius: 8px;
-    font-size: 16px;
-  }
-
   .ant-btn {
-    height: 45px;
-    border-radius: 8px;
-    font-size: 16px;
     width: 100%;
     background-color: #2c3e50;
     

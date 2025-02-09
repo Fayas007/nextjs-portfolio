@@ -38,7 +38,8 @@ font-weight:500;
 `;
 
 const StyledFlex = styled(Flex)`
-background-color:#b6e0d5;
+background-color: #b6e0d5;
+padding: 8px 16px;
 
 `;
 
